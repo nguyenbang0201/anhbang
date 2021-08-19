@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="stylesheet" href="css/style.css">
+   <!--- sử dụng FontAwesome --------------->
+   <script  src = "https://kit.fontawesome.com/c8e4d183c2.js"> </script>
+</head>
+<body  onload="sileshow()">
+    <nav>
+        <!--        liên kết xã hội       --------------------->
+        <div class="header-icon-lienhe-MXH">
+            <!-- icon liên kết xã hội  -->
+            <div class="icon">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!-- so dien thoai  -->
+            <div class="phone">
+                <span>Liên Hệ: 0979480297</span>
+            </div>
+        </div>
+        <!---          menu bar            -------------------->
+        <div class="header-menu">
+            <!--logo----->
+            <a href="#" class="logo"><h2>JUNO</h2></a>
+            
+            <!--menu --- -->
+            <ul class="menu">
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="asm_sanpham.html">Sản Phẩm</a></li>
+                <li><a href="asm_lienhe.html">Liên Hệ</a></li>
+                <li><a href="asm_account.html">Tài Khoản</a></li>
+                <li><a href="asm_gioithieu.html">Giới Thiệu</a></li>
+              
+
+            </ul>
+            <!--right menu-->
+            <div class="right-menu">
+                <!--timkiem-->
+                <a href="#"><i class="fas fa-search"></i></a>
+                <!--tai khoan-->
+                <a href="#" class="user"><i class="fas fa-user"></i></a>
+                <!--ro hang-->
+                <a href="asm_rohang.html">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="number-rohang">0</span>
+                </a>
+            </div>
+
+        </div>
+    </nav>
+    <!--      login      --------------->
+    <div class="form">
+        <!--login-->
+        <div class="login-from">
+            <!--cancel form-->
+            <a href="#" class="form-cancel"><i class="fas fa-times"></i></a>
+            <!--heading-->
+            <strong>Đăng Nhập</strong>
+            <!--input-->
+            <form>
+                <input type="email" placeholder="Nhập Email" name="email" >
+                <input type="password" placeholder="Nhập Password" name="pass">
+                <input type="submit" value="Đăng Nhập">
+            </form>
+            <!--tao tai khoan----->
+            <div class="btn-form">
+                <a href="#" class="tao-tk">Tạo Tài Khoản</a>
+                <a href="#" class="quen-mk">Quên Mật Khẩu???</a>
+            </div>
+        </div>
+    
+    </div>
+    <!---               sile show anh banner   -------------->
+    <section class="sileshow-container">
+        <div class="mysile">
+            <img   src="img/ba0.jpg" alt="">
+        </div>
+        <div class="mysile">
+            <img  src="img/ba1.jpg" alt="">
+        </div>
+        <div class="mysile">
+            <img src="img/ba2.jpg" alt="">
+        </div>
+        <div class="mysile">
+            <img src="img/banner.jpg" alt="">
+        </div>
+    </section>
+       <!---          search  xu ly js sau             ------------------->
+    <section class="search-bar">
+        <!--search inpuut-->
+        <div class="search-input">
+            <!--input-->
+            <input type="text" required placeholder="Tìm Kiếm">
+            <!---btn-cancle-->
+            <a href="#" class="cancle"><i class="fas fa-times"></i></a>
+        </div>
+    
+    </section>
+  <!---             Danh mục nổi bật             ------------------------ -->
+    <div class="hearder-danh-muc-noi-bat"data-aos="fade-up" data-aos-delay="100">
+        <!---Tiêu đề của danh mục nổi bật-->
+        <h2>Danh Mục Nổi Bật</h2>
+        <div class="box-san-pham-danh-muc-noi-bat">
+            <!---San pham cua danh mục nổi bật-->
+            <div class="san-pham-danh-muc-noi-bat">
+                <a href="asm_sanpham.html">
+                    <img src="img/tui12.jpg" alt="">
+                </a>
+                <p>Túi</p>
+            </div>
+            <!---San pham cua danh mục nổi bật-->
+            <div class="san-pham-danh-muc-noi-bat">
+                <a href="asm_sanpham.html">
+                    <img src="img/sua.png" alt="">
+                </a>
+                <p>Balo</p>
+            </div>
+             <!---San pham cua danh mục nổi bật-->
+            <div class="san-pham-danh-muc-noi-bat">
+                <a href="asm_sanpham.html">
+                    <img src="img/giay12.jpg" alt="">
+                </a>
+                <p>Giày</p>
+            </div>
+             <!---San pham cua danh mục nổi bật-->
+            <div class="san-pham-danh-muc-noi-bat">
+                <a href="asm_sanpham.html">
+                    <img src="img/Vi12.jpg" alt="">
+                </a>
+                <p>Ví</p>
+            </div>
+        
+        </div>
+        
+    </div>
+  <!-----     hàng mới về        ----------------   -->
+
+  <section class="hang-moi-ve" data-aos="fade-up" data-aos-delay="100">
+        <!---hearding hàng mới về  -->
+        <div class="hearding-hang-moi-ve">
+            <strong>Hàng Mới Về</strong>
+            <p>Sản phẩm đa dạng & phong phú</p>
+
+        </div>
+         <!--Container San pham hang moi ve-->
+         <div class="container-San-pham-hang-moi-ve">
+            <!--San pham 1-->
+            <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/m1.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Giày Trendy Levitated Chunky</a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <span class="moive-gia">500,000₫</span>
+                </div>
+            </div>
+             <!--San pham 2-->
+             <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/m2.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Ví Da Levitated</a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                   </div>
+                    <span class="moive-gia">300,000₫</span>
+                </div>
+            </div>
+             <!--San pham 3-->
+             <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/m3.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Túi Cách Tân Blucked</a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                   </div>
+                    <span class="moive-gia">550,000₫</span>
+                </div>
+            </div>
+             <!--San pham 4-->
+             <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/giay3.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Giày Cao Gót Mũi Nhọn Gót Trụ</a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                   </div>
+                    <span class="moive-gia">400,000₫</span>
+                </div>
+            </div>
+             <!--San pham 4-->
+             <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/giay1.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Giày Cao Gót Mũi Nhọn Gót Thanh</a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                   </div>
+                    <span class="moive-gia">600,000₫</span>
+                </div>
+            </div>
+             <!--San pham 4-->
+             <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/giay2.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Giày Cao Gót Mũi Nhọn Gót Bầu</a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                   </div>
+                    <span class="moive-gia">550,000₫</span>
+                </div>
+            </div>
+            
+  </section>
+  <!---                sale      ------------>
+  <section class="sale"data-aos="fade-up" data-aos-delay="100">
+      <!---hộp box sale-->
+        <div class="box-sale"data-aos="fade-up" data-aos-delay="100">
+            <!--img-->
+            <a href=""><img src="img/anh-sale5.jpg" alt=""></a>
+        </div>
+         <!---hộp box sale-->
+         <div class="box-sale"data-aos="fade-up" data-aos-delay="100">
+            <!--img-->
+            <a href=""><img src="img/anh-sale3.jpg" alt=""></a>
+        </div>
+         <!---hộp box sale-->
+         <div class="box-sale"data-aos="fade-up" data-aos-delay="100">
+            <!--img-->
+            <a href=""><img src="img/anh-sale4.jpg" alt=""></a>
+        </div>
+  </section>
+ 
+   <!---                    Sản Phẩm Bán Chạy    ----------------- ---------->
+   <section class="hang-moi-ve"data-aos="fade-up" data-aos-delay="100">
+    <!---hearding hàng mới về  -->
+        <div class="hearding-hang-moi-ve">
+            <strong>Sản Phẩm Bán Chạy</strong>
+            <p>Sản phẩm đa dạng & phong phú</p>
+
+        </div>
+        <!--Container San pham hang moi ve-->
+        <div class="container-San-pham-hang-moi-ve">
+            <!--San pham 1-->
+            <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/c1.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Túi Xách Cách Tân</a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                   </div>
+                    <span class="moive-gia">750,000₫</span>
+                </div>
+            </div>
+            <!--San pham 2-->
+            <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/c2.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Ví Trendy Levitated </a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                   </div>
+                    <span class="moive-gia">450,000₫</span>
+                </div>
+            </div>
+            <!--San pham 3-->
+            <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/c3.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Giày Thể Thao Utrabost</a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                   </div>
+                    <span class="moive-gia">650,000₫</span>
+                </div>
+            </div>
+            <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/m4.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Giày Cao Gót Flash </a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                   </div>
+                    <span class="moive-gia">670,000₫</span>
+                </div>
+            </div>
+            <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/m15.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Ví Cầm Tay Cách Điệu</a>
+                    <div class="icon-danhgia">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                   </div>
+                    <span class="moive-gia">840,000₫</span>
+                </div>
+            </div>
+            <!--San pham 4-->
+            <div class="box-San-pham-hang-moi-ve" >
+                <!--img-->
+                <div class="San-pham-hang-moi-ve-img">
+                    <!--Thêm vào rỏ hàng-->
+                    <a href="" class="add-rohang">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <img src="img/c4.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                </div>
+                <!--noi dung-->
+                <div class="San-pham-hang-moi-ve-noidung" data-aos="fade-up" data-aos-delay="100">
+                    <a href="asm_chitiet_sanpham.html" class="moive-name">Ví Da Cá Sấu</a>
+                    <div class="icon-danhgia">
+                        
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                   </div>
+                    <span class="moive-gia">1,000,000₫</span>
+                </div>
+            </div>
+          
+        </div>
+        
+   </section>
+
+   <!--- ----------              Bannner     ------------->
+   <section class="banner"data-aos="fade-up" data-aos-delay="100">
+        <img   src="img/anhdep.jpg" alt="">
+    </section>
+    <section class="hang-moi-ve"data-aos="fade-up" data-aos-delay="100">
+        <!---hearding hàng mới về  -->
+            <div class="hearding-hang-moi-ve">
+                <strong>Phụ Kiện</strong>
+                <p>Phụ kiện chất Giá bất ngờ</p>
+    
+            </div>
+            <!--Container San pham hang moi ve-->
+            <div class="container-San-pham-hang-moi-ve">
+                <!--San pham 1-->
+                <div class="box-San-pham-hang-moi-ve" >
+                    <!--img-->
+                    <div class="San-pham-hang-moi-ve-img">
+                        <!--Thêm vào rỏ hàng-->
+                        <a href="" class="add-rohang">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <img src="img/matkinh.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                    </div>
+                    <!--noi dung-->
+                    <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                        <a href="asm_chitiet_sanpham.html" class="moive-name">Mắt Kính Vuông Gọng Mạ Vàng</a>
+                        <div class="icon-danhgia">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+    
+                       </div>
+                        <span class="moive-gia">1,750,000₫</span>
+                    </div>
+                </div>
+                <!--San pham 2-->
+                <div class="box-San-pham-hang-moi-ve" >
+                    <!--img-->
+                    <div class="San-pham-hang-moi-ve-img">
+                        <!--Thêm vào rỏ hàng-->
+                        <a href="" class="add-rohang">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <img src="img/kinh1.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                    </div>
+                    <!--noi dung-->
+                    <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                        <a href="asm_chitiet_sanpham.html" class="moive-name">Mắt Kính Vuông Gọng Nhựa </a>
+                        <div class="icon-danhgia">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+    
+                       </div>
+                        <span class="moive-gia">960,000₫</span>
+                    </div>
+                </div>
+                <!--San pham 3-->
+                <div class="box-San-pham-hang-moi-ve" >
+                    <!--img-->
+                    <div class="San-pham-hang-moi-ve-img">
+                        <!--Thêm vào rỏ hàng-->
+                        <a href="" class="add-rohang">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <img src="img/bongtai.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                    </div>
+                    <!--noi dung-->
+                    <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                        <a href="asm_chitiet_sanpham.html" class="moive-name">Bông Tai Hình Bướm Đính Pha Lê</a>
+                        <div class="icon-danhgia">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+    
+                       </div>
+                        <span class="moive-gia">6,450,000₫</span>
+                    </div>
+                </div>
+                <div class="box-San-pham-hang-moi-ve" >
+                    <!--img-->
+                    <div class="San-pham-hang-moi-ve-img">
+                        <!--Thêm vào rỏ hàng-->
+                        <a href="" class="add-rohang">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <img src="img/Vong.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                    </div>
+                    <!--noi dung-->
+                    <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                        <a href="asm_chitiet_sanpham.html" class="moive-name">Vòng Tay Đính Đá </a>
+                        <div class="icon-danhgia">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+    
+                       </div>
+                        <span class="moive-gia">670,000₫</span>
+                    </div>
+                </div>
+                <div class="box-San-pham-hang-moi-ve" >
+                    <!--img-->
+                    <div class="San-pham-hang-moi-ve-img">
+                        <!--Thêm vào rỏ hàng-->
+                        <a href="" class="add-rohang">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <img src="img/matkinh3.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                    </div>
+                    <!--noi dung-->
+                    <div class="San-pham-hang-moi-ve-noidung"data-aos="fade-up" data-aos-delay="100">
+                        <a href="asm_chitiet_sanpham.html" class="moive-name">Mắt Kính Mắt Mèo</a>
+                        <div class="icon-danhgia">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+    
+                       </div>
+                        <span class="moive-gia">840,000₫</span>
+                    </div>
+                </div>
+                <!--San pham 4-->
+                <div class="box-San-pham-hang-moi-ve" >
+                    <!--img-->
+                    <div class="San-pham-hang-moi-ve-img">
+                        <!--Thêm vào rỏ hàng-->
+                        <a href="" class="add-rohang">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <img src="img/matkinh4.jpg" alt=""data-aos="fade-up" data-aos-delay="100">
+                    </div>
+                    <!--noi dung-->
+                    <div class="San-pham-hang-moi-ve-noidung" data-aos="fade-up" data-aos-delay="100">
+                        <a href="asm_chitiet_sanpham.html" class="moive-name">Mắt Kính Đa Giác Kim Loại</a>
+                        <div class="icon-danhgia">
+                            
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            
+                       </div>
+                        <span class="moive-gia">1,000,000₫</span>
+                    </div>
+                </div>
+              
+            </div>
+            
+       </section>
+    <!--                        dich vụ --------------------->
+    <section class="dichvu"data-aos="fade-up" data-aos-delay="100">
+        <iframe width="100%" height="600" src="https://www.youtube.com/embed/P-G1SKw8i0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--box dichvu-->
+        <div class="box-dichvu"data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Free Shipping</span>
+            <p>Free Shipping Nội Thành</p>
+        </div>
+         <!--box dichvu-->
+         <div class="box-dichvu"data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Hỗ Trợ 24/7</span>
+            <p>Chúng tôi hỗ trợ 24h một ngày</p>
+        </div>
+         <!--box dichvu-->
+         <div class="box-dichvu "data-aos="fade-up" data-aos-delay="100">
+            <i class="fas fa-sync"></i>
+            <span>100% Hoàn Tiền</span>
+            <p>30 ngày đổi trả hoàn 100% số tiền</p>
+        </div>
+        
+    </section>
+    <!----               footer ---------------------------->
+    <footer>
+       <section class="container">
+            <div class="row">
+                <div class="col-1" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Tải xuống ứng dụng của chúng tôi</h3>
+                    <p>Tải xuống ứng dụng cho điện thoại di động Android và IOS</p>
+                </div>
+                <div class="col-2" data-aos="fade-up" data-aos-delay="100">
+                    <img style="    width: 150px;
+                    height: 30px;" src="img/logo-juno.png" alt="">
+                    <p>Mục đích của chúng tôi là làm cho nhiều người có thể mua được các sản phẩm thời trang đẳng cấp mọi lúc mọi nơi    </p>
+                </div>
+                <div class="col-3"data-aos="fade-up" data-aos-delay="100">
+                    <h3>Liên kết</h3>
+                    <ul>
+                        <li>Phiếu giảm giá</li>
+                        <li>Bài viết trên blog</li>
+                        <li>Chính sách hoàn trả</li>
+                        <li>Tham gia liên kết</li>
+                    </ul>
+                </div>
+                <div class="col-4" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Chúng tôi</h3>
+                    <ul>
+                        <li><i class="fab fa-facebook"></i>  Facebook</li>
+                        <li><i class="fab fa-twitter"></i>  Twitter</li>
+                        <li><i class="fab fa-youtube-square">  Youtube</i></li>
+                        <li><i class="fab fa-instagram"></i>  Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Nguyen Anh Bang</p>
+       </section>
+    </footer>
+
+
+
+
+
+    
+    <!---js phần sile ảnh-->
+    <script src="js/sile.js"></script>
+   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    
+    <!---js phần form đăng nhập-->
+    <script src="js/jQuery.js"></script>
+    <script type="text/javascript">
+        // Đăng nhập
+        $(document).on('click','.user',function(){
+                $('.form').addClass('login-active')
+            });
+        //cancel
+        $(document).on('click','.form-cancel',function(){
+            $('.form').removeClass('login-active')
+    });
+    </script>
+    
+   
+    
+</body>
+</html>
